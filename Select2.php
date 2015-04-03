@@ -33,7 +33,8 @@ class Select2 extends InputWidget
     protected function registerPlugin()
     {
         $view = $this->getView();
-        Select2Asset::register($view);
+        //Select2Asset::register($view);
+        Select2BootstrapAsset::register($view);
         
     
         $id = $this->options['id'];
