@@ -1,0 +1,21 @@
+{
+    "name": "massadigital/yii2-select2",
+    "description": "Widget select2 yii2",
+    "keywords": ["yii2", "select2"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Carlos"
+        }
+    ],
+    "require": {
+	    "yiisoft/yii2": "*",
+        "bower-asset/select2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "massadigital\\select2\\": ""
+        }
+    },
+}
