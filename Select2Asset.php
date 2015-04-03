@@ -1,31 +1,20 @@
 <?php
 
-/**
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014
- * @package yii2-widgets
- * @subpackage yii2-widget-select2 
- * @version 1.0.0
- */
-
-namespace kartik\select2;
+namespace massadigital\select2;
 
 use Yii;
+use yii\web\AssetBundle;
 
-/**
- * Asset bundle for Select2 Widget
- *
- * @author Kartik Visweswaran <kartikv2@gmail.com>
- * @since 1.0
- */
-class Select2Asset extends \kartik\base\AssetBundle
+
+class Select2Asset extends AssetBundle
 {
 
-    public function init()
-    {
-        $this->setSourcePath(__DIR__ . '/lib');
-        $this->setupAssets('css', ['select2', 'select2-kv']);
-        $this->setupAssets('js', ['select2', 'select2-kv']);
-        parent::init();
-    }
-
+    public $sourcePath = '@bower/select2/dist';
+    public $css = [
+        'css/select2.min.css',
+    ];
+    public $js = [
+        'js/select2.full.min.js',
+    ];
+    
 }
