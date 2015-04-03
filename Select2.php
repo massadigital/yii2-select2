@@ -22,12 +22,13 @@ class Select2 extends InputWidget
 
     public function run()
     {
+    	$this->registerPlugin();
+    	 
         if ($this->hasModel()) {
             echo Html::activeDropDownList($this->model, $this->attribute, $this->items, $this->options);
         } else {
             echo Html::dropDownList($this->name, $this->value, $this->items, $this->options);
         }
-        $this->registerPlugin();
     }
 
     protected function registerPlugin()
