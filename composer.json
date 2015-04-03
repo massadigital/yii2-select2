@@ -12,7 +12,7 @@
     "require": {
 	    "yiisoft/yii2": "*",
         "bower-asset/select2": "*",
-        "t0m/select2-bootstrap-css": "*"
+        "bower-asset/select2-bootstrap-css": "*"
         
     },
     "autoload": {
