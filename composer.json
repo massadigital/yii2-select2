@@ -20,7 +20,7 @@
                 "url": "git://github.com/fk/select2-bootstrap-theme.git"
             }
         ]
-    }
+    },
     "autoload": {
         "psr-4": {
             "massadigital\\select2\\": ""
