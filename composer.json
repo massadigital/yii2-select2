@@ -10,8 +10,17 @@
         }
     ],
     "require": {
-        "bower-asset/select2": "*"
+        "bower-asset/select2": "*",
+        "bower-asset/select2-bootstrap-theme": "*"
     },
+    "extra": {
+        "asset-repositories": [
+            {
+                "type": "bower-git",
+                "url": "git://github.com/fk/select2-bootstrap-theme.git"
+            }
+        ]
+    }
     "autoload": {
         "psr-4": {
             "massadigital\\select2\\": ""
