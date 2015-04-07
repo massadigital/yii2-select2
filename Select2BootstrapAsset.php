@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 class Select2BootstrapAsset extends AssetBundle
 {
 
-    public $sourcePath = '@bower/select2-bootstrap-css';
+    public $sourcePath = '@bower/select2-bootstrap-theme';
 
     public $css = [
         'select2-bootstrap.css'
