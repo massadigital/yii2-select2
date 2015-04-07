@@ -9,17 +9,18 @@
             "name": "Carlos"
         }
     ],
-    "repositories": [
-        {
-        "type": "vcs",
-        "url": "https://github.com/fk/select2-bootstrap-theme"
-        }
-    ],
-
     "require": {
         "bower-asset/select2": "*",
         "bower-asset/select2-bootstrap-theme": "*"
         
+    },
+    "extra": {
+        "asset-repositories": [
+            {
+                "type": "bower-vcs",
+        		"url": "https://github.com/fk/select2-bootstrap-theme.git"
+            }
+        ]
     },
     "autoload": {
         "psr-4": {
