@@ -11,17 +11,6 @@
     ],
     "require": {
         "bower-asset/select2": "*",
-        "bower-asset/select2-bootstrap-theme": "*"
-        
-    },
-    "extra": {
-        "asset-repositories": [
-            {
-                "type": "bower-git",
-        		"url": "https://github.com/fk/select2-bootstrap-theme.git",
-        		"name": "bower-asset/select2-bootstrap-theme"
-            }
-        ]
     },
     "autoload": {
         "psr-4": {
